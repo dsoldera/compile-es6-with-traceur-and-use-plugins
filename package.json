@@ -1,0 +1,37 @@
+{
+  "name": "compile_es6_on_browser_plus_jquery",
+  "version": "1.0.0",
+  "description": "A way to compile the ES6 features directly on browser and how to import Jquery and others plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dsoldera/compile-es6-with-traceur-and-use-plugins.git"
+  },
+  "keywords": [
+    "es6",
+    "es2015",
+    "compile",
+    "traceur",
+    "jquery"
+  ],
+  "author": "Danielle Soldera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsoldera/compile-es6-with-traceur-and-use-plugins/issues"
+  },
+  "homepage": "https://github.com/dsoldera/compile-es6-with-traceur-and-use-plugins#readme",
+  "dependencies": {
+    "es6-module-loader": "^0.17.11",
+    "jquery": "^3.1.1",
+    "material-design-lite": "^1.2.1",
+    "systemjs": "^0.19.40",
+    "traceur": "0.0.111"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
